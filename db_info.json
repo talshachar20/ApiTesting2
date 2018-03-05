@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "info": [
+        {
+          "email": "test@gmail.com",
+          "phone": "30403030"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "New title2",
+      "author": "tazosssssssSSS",
+      "info": {
+        "email": "secondemail@gmail.com",
+        "phone": "493393"
+      }
+    }
+  ]
+}

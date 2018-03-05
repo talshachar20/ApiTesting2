@@ -11,7 +11,9 @@ import org.testng.annotations.Test;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 
+import APITesting.com.org.classes.Info;
 import APITesting.com.org.classes.Posts;
+import APITesting.com.org.classes._Postd;
 
 import static com.jayway.restassured.RestAssured.*;
 
@@ -89,5 +91,25 @@ public class JasonServerRequests {
 				delete("http://localhost:3000/posts/8");
 		System.out.println(resp.asString());
 				
+	}
+	
+	//Nested db test
+	@Test
+	public void Test_06() {
+		Info info = new Info();
+		info.setEmail("secondemail@gmail.com");
+		info.setPhone("493393");
+		
+		_Postd postd = new _Postd();
+		postd.setTitle("New title2");
+		postd.setAuthor("tazosssssssSSS");
+		postd.setInfo(info);
+		
+		Response resp= given().
+				when().
+				contentType(ContentType.JSON).
+				body(postd).
+				post("http://localhost:3000/posts");
+		System.out.println(resp.asString());
 	}
 }

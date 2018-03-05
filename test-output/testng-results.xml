@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2033" started-at="2018-02-22T07:44:53Z" finished-at="2018-02-22T07:44:55Z">
+  <suite name="Default suite" duration-ms="2036" started-at="2018-03-05T10:43:10Z" finished-at="2018-03-05T10:43:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2033" started-at="2018-02-22T07:44:53Z" finished-at="2018-02-22T07:44:55Z">
+    <test name="Default test" duration-ms="2036" started-at="2018-03-05T10:43:10Z" finished-at="2018-03-05T10:43:12Z">
       <class name="APITesting.com.org.api.JasonServerRequests">
-        <test-method status="PASS" signature="Test_01()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_01" duration-ms="1307" started-at="2018-02-22T08:44:53Z" finished-at="2018-02-22T08:44:54Z">
+        <test-method status="PASS" signature="Test_01()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_01" duration-ms="1263" started-at="2018-03-05T11:43:10Z" finished-at="2018-03-05T11:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_01 -->
-        <test-method status="PASS" signature="Test_02()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_02" duration-ms="46" started-at="2018-02-22T08:44:54Z" finished-at="2018-02-22T08:44:54Z">
+        <test-method status="PASS" signature="Test_02()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_02" duration-ms="73" started-at="2018-03-05T11:43:12Z" finished-at="2018-03-05T11:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_02 -->
-        <test-method status="PASS" signature="Test_03()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_03" duration-ms="549" started-at="2018-02-22T08:44:54Z" finished-at="2018-02-22T08:44:55Z">
+        <test-method status="PASS" signature="Test_03()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_03" duration-ms="487" started-at="2018-03-05T11:43:12Z" finished-at="2018-03-05T11:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_03 -->
-        <test-method status="PASS" signature="Test_04()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_04" duration-ms="39" started-at="2018-02-22T08:44:55Z" finished-at="2018-02-22T08:44:55Z">
+        <test-method status="PASS" signature="Test_04()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_04" duration-ms="48" started-at="2018-03-05T11:43:12Z" finished-at="2018-03-05T11:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_04 -->
-        <test-method status="PASS" signature="Test_05()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_05" duration-ms="28" started-at="2018-02-22T08:44:55Z" finished-at="2018-02-22T08:44:55Z">
+        <test-method status="PASS" signature="Test_05()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_05" duration-ms="33" started-at="2018-03-05T11:43:12Z" finished-at="2018-03-05T11:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_05 -->
+        <test-method status="PASS" signature="Test_06()[pri:0, instance:APITesting.com.org.api.JasonServerRequests@39c0f4a]" name="Test_06" duration-ms="75" started-at="2018-03-05T11:43:12Z" finished-at="2018-03-05T11:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_06 -->
       </class> <!-- APITesting.com.org.api.JasonServerRequests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
