@@ -112,4 +112,28 @@ public class JasonServerRequests {
 				post("http://localhost:3000/posts");
 		System.out.println(resp.asString());
 	}
+	
+	@Test
+	public void Test_07() {
+		String resp= given().
+				when().
+				get("http://localhost:3000/posts/2").
+				then().
+				contentType(ContentType.JSON).
+				extract().
+				path("author");
+		assertEquals("tazosss", resp);
+	}
+	
+	@Test
+	public void Test_08() {
+		String resp= given().
+				when().
+				get("http://localhost:3000/posts/2").
+				then().
+				contentType(ContentType.JSON).
+				extract().
+				path("author");
+		assertEquals("tazosss", resp);
+	}
 }

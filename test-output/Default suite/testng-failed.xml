@@ -5,12 +5,7 @@
     <classes>
       <class name="APITesting.com.org.api.JasonServerRequests">
         <methods>
-          <include name="Test_06"/>
-          <include name="Test_05"/>
-          <include name="Test_04"/>
-          <include name="Test_03"/>
-          <include name="Test_02"/>
-          <include name="Test_01"/>
+          <include name="Test_08"/>
         </methods>
       </class> <!-- APITesting.com.org.api.JasonServerRequests -->
     </classes>
