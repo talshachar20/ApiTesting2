@@ -16,6 +16,7 @@ import APITesting.com.org.classes.Posts;
 import APITesting.com.org.classes._Postd;
 
 import static com.jayway.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.lessThan;
 
 public class JasonServerRequests {
 	
@@ -135,5 +136,25 @@ public class JasonServerRequests {
 				extract().
 				path("author");
 		assertEquals("tazosss", resp);
+	}
+	
+	@Test
+	public void Test_09() {
+		Response resp = given().
+		when().
+		get("http://localhost:3000/posts/2");
+		
+		Long time = resp.
+		then().
+		extract().
+		time();
+		
+		System.out.println("Response time is: " + time);
+		
+		given().
+		when().
+		then().
+		and().
+		time(lessThan(5L));
 	}
 }
